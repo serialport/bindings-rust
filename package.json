@@ -1,0 +1,14 @@
+{
+  "name": "@serialport/bindings-rust",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Francis Gulotta <wizard@roborooter.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.2.0"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
