@@ -4,15 +4,16 @@ version = "0.1.0"
 authors = ["Francis Gulotta <wizard@roborooter.com>"]
 license = "MIT"
 build = "build.rs"
+edition = "2018"
 exclude = ["artifacts.json", "index.node"]
 
 [lib]
 name = "bindings_rust"
-crate-type = ["dylib"]
+crate-type = ["cdylib"]
 
 [build-dependencies]
-neon-build = "0.2.0"
+neon-build = "0.6.0"
 
 [dependencies]
-neon = "0.2.0"
-serialport = "3.2.0"
+neon = "0.6.0"
+serialport = "4.0.0"

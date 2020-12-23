@@ -6,7 +6,7 @@
   "author": "Francis Gulotta <wizard@roborooter.com>",
   "license": "MIT",
   "dependencies": {
-    "neon-cli": "^0.2.0"
+    "neon-cli": "^0.6.0"
   },
   "scripts": {
     "install": "neon build"

@@ -1,8 +1,5 @@
-#[macro_use]
-extern crate neon;
-extern crate serialport;
-
 use neon::prelude::*;
+extern crate serialport;
 use serialport::{available_ports, SerialPortInfo};
 
 struct BackgroundTask;
