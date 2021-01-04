@@ -7,8 +7,10 @@ version = "0.0.0"
 crate-type = ["cdylib"]
 
 [dependencies]
-napi = "1"
+napi = { version = "1.0.0", features = ["tokio_rt"] }
 napi-derive = "1"
+serialport = "4.0.0"
+tokio = "1.0.1"
 
 [build-dependencies]
 napi-build = "1"
