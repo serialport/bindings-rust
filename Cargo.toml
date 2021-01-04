@@ -7,7 +7,7 @@ version = "0.0.0"
 crate-type = ["cdylib"]
 
 [dependencies]
-napi = { version = "1.0.0", features = ["tokio_rt"] }
+napi = { version = "1.0.1", features = ["tokio_rt"] }
 napi-derive = "1"
 serialport = "4.0.0"
 tokio = "1.0.1"
