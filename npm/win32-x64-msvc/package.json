@@ -1,0 +1,16 @@
+{
+  "name": "@serialport/bindings-rust-win32-x64-msvc",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "bindings-rust.win32-x64-msvc.node",
+  "files": [
+    "bindings-rust.win32-x64-msvc.node"
+  ],
+  "engines": {
+    "node": ">= 10"
+  }
+}
