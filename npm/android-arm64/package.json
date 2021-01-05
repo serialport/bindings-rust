@@ -1,0 +1,16 @@
+{
+  "name": "@serialport/bindings-rust-android-arm64",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "bindings-rust.android-arm64.node",
+  "files": [
+    "bindings-rust.android-arm64.node"
+  ],
+  "engines": {
+    "node": ">= 10"
+  }
+}

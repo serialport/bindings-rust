@@ -1,14 +1,31 @@
 {
   "name": "@serialport/bindings-rust",
-  "version": "0.1.0",
-  "description": "",
-  "main": "lib/index.js",
-  "author": "Francis Gulotta <wizard@roborooter.com>",
-  "license": "MIT",
+  "napi": {
+    "name": "bindings-rust",
+    "triples": {
+      "additional": [
+        "aarch64-apple-darwin",
+        "aarch64-linux-android",
+        "aarch64-unknown-linux-gnu",
+        "armv7-unknown-linux-gnueabihf",
+        "x86_64-unknown-linux-musl"
+      ]
+    }
+  },
   "dependencies": {
-    "neon-cli": "^0.6.0"
+    "@node-rs/helper": "^1.0.0"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 10"
   },
   "scripts": {
-    "install": "neon build"
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "version": "napi version"
   }
 }

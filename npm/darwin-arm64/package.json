@@ -1,0 +1,16 @@
+{
+  "name": "@serialport/bindings-rust-darwin-arm64",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "bindings-rust.darwin-arm64.node",
+  "files": [
+    "bindings-rust.darwin-arm64.node"
+  ],
+  "engines": {
+    "node": ">= 10"
+  }
+}

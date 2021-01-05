@@ -1,0 +1,16 @@
+{
+  "name": "@serialport/bindings-rust-linux-x64-gnu",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "bindings-rust.linux-x64-gnu.node",
+  "files": [
+    "bindings-rust.linux-x64-gnu.node"
+  ],
+  "engines": {
+    "node": ">= 10"
+  }
+}
